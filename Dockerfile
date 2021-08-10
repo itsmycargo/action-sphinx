@@ -1,7 +1,7 @@
 FROM python:3.9
 
 RUN apt-get update \
-  && apt-get install -y --no-install-recommends curl openjdk-11-jre-headless \
+  && apt-get install -y --no-install-recommends curl openjdk-11-jre-headless graphviz \
   && rm -rf /var/lib/apt/lists/* \
   && curl -sLo /usr/local/plantuml.jar http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
 
