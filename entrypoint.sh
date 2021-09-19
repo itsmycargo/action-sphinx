@@ -13,6 +13,4 @@ sphinx-build -b ${SPHINX_BUILDER} "${SOURCEDIR}" "${SOURCEDIR}/_build" \
   -D confluence_server_url=$CONFLUENCE_SERVER \
   -D confluence_server_user=$CONFLUENCE_USER \
   -D confluence_server_pass=$CONFLUENCE_PASS \
-  -D confluence_purge=True \
-  -D confluence_purge_from_master=True \
   ${SPHINX_BUILD_ARGS} "$@"
