@@ -1,4 +1,4 @@
 myst-parser
-sphinx
-sphinxcontrib-confluencebuilder
-sphinxcontrib-plantuml
+sphinx==4.4.0
+sphinxcontrib-confluencebuilder==1.7.1
+sphinxcontrib-plantuml==0.22
